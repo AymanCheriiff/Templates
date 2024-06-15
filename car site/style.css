@@ -364,6 +364,10 @@ i, button, a, li {
         padding-right: 50px;
     }
 
+    .second-section .description .title{
+        font-size: 35px !important;
+    }
+
 }
 
 /* second section end */
