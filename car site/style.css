@@ -259,19 +259,111 @@ i, button, a, li {
 }
 
 @media (max-width: 885px) {
-    .first-section img{
+    .first-section img {
         display: none;
     }
 
-    .first-section .container{
+    .first-section .container {
         display: block;
         padding-left: 50px;
         padding-right: 50px;
+        padding-bottom: 100px;
     }
 
-    .first-section h1{
+    .first-section h1 {
 
     }
 }
 
 /* first section end */
+
+/* second section start */
+
+.second-section {
+    font-family: "Raleway", sans-serif;
+}
+
+.second-section .container {
+    display: flex;
+    align-items: center;
+    padding: 100px 200px;
+    gap: 200px;
+}
+
+.second-section .container .content {
+    flex: 1;
+}
+
+.second-section .container .content .service {
+    border-left: 5px solid gray;
+    padding-left: 50px;
+}
+
+.second-section .container .content .description {
+    padding-left: 50px;
+    margin-top: 250px;
+}
+
+.second-section .container .content img {
+    width: 700px;
+}
+
+.second-section .container .content .description .title {
+    font-size: 52px;
+    letter-spacing: 8px;
+    margin-bottom: 100px;
+}
+
+.description p {
+    word-spacing: 6px;
+    line-height: 25px;
+    font-weight: 500;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+}
+
+.btn-read-plus {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    border-radius: 5px 0 0 5px;
+    padding: 7px 25px 8px 25px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    cursor: pointer;
+    transition: ease-in 0.2s;
+}
+
+.arrow {
+    padding: 7px;
+    border-radius: 0 5px 5px 0;
+    border: 1px solid black;
+}
+
+.btn-read-plus:hover {
+    background-color: black;
+    color: white;
+}
+
+@media (max-width: 1533px) {
+    .second-section img {
+        display: none;
+    }
+}
+
+@media (max-width: 885px) {
+
+    .second-section .container {
+        display: block;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+}
+
+/* second section end */
